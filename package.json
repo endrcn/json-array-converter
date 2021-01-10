@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/endrcn/json-converter.git"
+    "url": "git+https://github.com/endrcn/json-array-converter.git"
   },
   "keywords": [
     "json-to-array",
@@ -22,7 +22,7 @@
   "author": "Ender CAN,Alpcan Tuna",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/endrcn/json-converter/issues"
+    "url": "https://github.com/endrcn/json-array-converter/issues"
   },
-  "homepage": "https://github.com/endrcn/json-converter#readme"
+  "homepage": "https://github.com/endrcn/json-array-converter#readme"
 }
