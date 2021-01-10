@@ -17,7 +17,9 @@
     "json-to-array",
     "json2array",
     "array2json",
-    "array-to-json"
+    "array-to-json",
+    "array",
+    "json"
   ],
   "author": "Ender CAN,Alpcan Tuna",
   "license": "ISC",
