@@ -1,6 +1,6 @@
 {
   "name": "json-array-converter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a json-to-array module written in JS",
   "main": "index.js",
   "directories": {
