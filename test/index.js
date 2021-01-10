@@ -1,12 +1,14 @@
 const jsonConverter = require("../index");
 
 const json = {
-    "ender": "can",
-    "alp": {
-        "can": {
-            "tuna": "selam"
+    json:{
+        array: {
+            converter: "json-array-converter"
         }
-    } 
+    },
+    say: {
+        hello: ["hello!"]
+    }
 }
 
 console.log(jsonConverter.toArray(json));

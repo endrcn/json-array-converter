@@ -21,8 +21,16 @@ jsonConverter.toArray({
 ```
 The output is:
 ```output
-[ { name: 'json', parent: -1, level: 0, index: 0 },
-  { name: 'say', parent: -1, level: 0, index: 1 },
+[ { name: 'json',
+    value: { array: [Object] },
+    parent: -1,
+    level: 0,
+    index: 0 },
+  { name: 'say',
+    value: { hello: [Array] },
+    parent: -1,
+    level: 0,
+    index: 1 },
   { name: 'array',
     value: { converter: 'json-array-converter' },
     parent: 0,
@@ -38,7 +46,6 @@ The output is:
     parent: 2,
     level: 2,
     index: 4 },
-  { name: '0', value: 'hello!', parent: 3, level: 2, index: 5 } ]
 ```
 
 Output fields:
