@@ -19,7 +19,16 @@
     "array2json",
     "array-to-json",
     "array",
-    "json"
+    "json",
+    "to",
+    "converter",
+    "json2arr",
+    "arr2json",
+    "transform",
+    "object2array",
+    "array2object",
+    "array-to-object",
+    "object-to-array"
   ],
   "author": "Ender CAN,Alpcan Tuna",
   "license": "ISC",

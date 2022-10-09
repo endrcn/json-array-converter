@@ -1,14 +1,19 @@
 const jsonConverter = require("../index");
 
 const json = {
-    json:{
-        array: {
-            converter: "json-array-converter"
-        }
+    "q": "Hangi kart?",
+    "Maximum": {
+        "q": "Hangi maksimum?",
+        "Maxi Bonus": "asd",
+        "Maxi Genç": "bcd"
     },
-    say: {
-        hello: ["hello!"]
+    "Bonus": {
+        "q": "Hangi bonus?",
+        "Maxi Bonus": "sdf",
+        "Bonus Genç": "gcn"
     }
 }
 
-console.log(jsonConverter.toArray(json));
+// console.log(jsonConverter.toArray(json));
+
+console.log(JSON.stringify(jsonConverter.toJsonCrackFormat(json), null, 4));
