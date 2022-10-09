@@ -15,5 +15,4 @@ const json = {
 }
 
 // console.log(jsonConverter.toArray(json));
-
 console.log(JSON.stringify(jsonConverter.toJsonCrackFormat(json), null, 4));
