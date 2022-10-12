@@ -4,6 +4,8 @@
 a json-to-array module written with Javascript
 
 
+### To Array
+
 ```javascript
 const jsonConverter = require("json-array-converter");
 
@@ -61,7 +63,7 @@ level -> how deep is the node's place
 
 index -> the node's index
 
-**To convert the array to an object**
+### To convert the array to an object
 
 ```javascript
 const jsonConverter = require("json-array-converter");
